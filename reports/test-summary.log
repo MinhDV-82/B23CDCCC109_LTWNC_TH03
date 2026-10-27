@@ -1,0 +1,12 @@
+
+> class-deadline-hub@1.0.0 test
+> jest
+
+PASS __tests__/server-actions.test.ts
+PASS __tests__/permissions.test.ts
+
+Test Suites: 2 passed, 2 total
+Tests:       29 passed, 29 total
+Snapshots:   0 total
+Time:        0.188 s, estimated 1 s
+Ran all test suites.

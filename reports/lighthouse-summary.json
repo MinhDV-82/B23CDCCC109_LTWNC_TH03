@@ -1,0 +1,24 @@
+{
+  "measuredAt": "2026-10-27T07:15:30.318Z",
+  "environment": {
+    "node": "v22.23.1",
+    "platform": "linux",
+    "browser": "Brave Browser 155.1.97.59 (Chromium-based headless)",
+    "port": 3001,
+    "nextVersion": "14.2.35"
+  },
+  "homePage": {
+    "url": "http://localhost:3001/",
+    "performance": 100,
+    "accessibility": 95,
+    "bestPractices": 96,
+    "seo": 100
+  },
+  "deadlineDetailPage": {
+    "url": "http://localhost:3001/deadlines/dl_01",
+    "performance": 100,
+    "accessibility": 96,
+    "bestPractices": 96,
+    "seo": 100
+  }
+}

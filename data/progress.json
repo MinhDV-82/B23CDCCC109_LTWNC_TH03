@@ -1,0 +1,20 @@
+[
+  {
+    "userId": "usr_sv_01",
+    "deadlineId": "dl_03",
+    "completedAt": "2026-10-23T19:20:00+07:00",
+    "isCompleted": true
+  },
+  {
+    "userId": "usr_sv_01",
+    "deadlineId": "dl_06",
+    "completedAt": "2026-10-19T21:45:00+07:00",
+    "isCompleted": true
+  },
+  {
+    "userId": "usr_sv_01",
+    "deadlineId": "dl_12",
+    "completedAt": "2026-10-21T15:30:00+07:00",
+    "isCompleted": true
+  }
+]

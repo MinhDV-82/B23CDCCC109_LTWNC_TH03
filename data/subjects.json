@@ -1,0 +1,39 @@
+[
+  {
+    "id": "sub_01",
+    "slug": "lap-trinh-web-nang-cao",
+    "name": "Lập trình Web Nâng cao",
+    "code": "INT1416",
+    "description": "Nghiên cứu kiến trúc Next.js App Router, React Server Components, Authentication, State Management và tối ưu hiệu năng web.",
+    "lecturer": "TS. Trần Văn Nam",
+    "credits": 3
+  },
+  {
+    "id": "sub_02",
+    "slug": "kien-truc-may-tinh-he-dieu-hanh",
+    "name": "Kiến trúc Máy tính & Hệ điều hành",
+    "code": "INT1332",
+    "description": "Nguyên lý hoạt động của CPU, quản lý bộ nhớ, tiến trình đa luồng, cơ chế đồng bộ và hệ thống file trên Linux/UNIX.",
+    "lecturer": "PGS.TS. Lê Hoàng Hải",
+    "credits": 3
+  },
+  {
+    "id": "sub_03",
+    "slug": "co-so-du-lieu-phan-tan",
+    "name": "Cơ sở Dữ liệu Phân tán",
+    "code": "INT1340",
+    "description": "Thiết kế phân mảnh ngang, phân mảnh dọc, tối ưu truy vấn phân tán, giải thuật đồng thuận và tính nhất quán dữ liệu.",
+    "lecturer": "TS. Nguyễn Thị Mai",
+    "credits": 3
+  },
+  {
+    "id": "sub_04",
+    "slug": "an-toan-bao-mat-thong-tin",
+    "name": "An toàn & Bảo mật Thông tin",
+    "code": "INT1445",
+    "description": "Mật mã học ứng dụng, chữ ký số, giao thức xác thực OAuth2/JWT, phân tích lỗ hổng Web OWASP Top 10 và phòng thủ mạng.",
+    "lecturer": "ThS. Đỗ Tuấn Anh",
+    "credits": 3
+  }
+]
+

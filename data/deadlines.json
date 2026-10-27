@@ -1,0 +1,111 @@
+[
+  {
+    "id": "dl_01",
+    "subjectId": "sub_01",
+    "title": "Báo cáo Thực hành 01: Next.js App Router & SSG/ISR",
+    "description": "Xây dựng ứng dụng portal trường học với App Router, triển khai Rendering SSG cho danh mục tĩnh và ISR 60s cho danh sách động.",
+    "dueDate": "2026-10-29T23:59:59+07:00",
+    "createdAt": "2026-10-15T08:00:00+07:00",
+    "priority": "high"
+  },
+  {
+    "id": "dl_02",
+    "subjectId": "sub_01",
+    "title": "Báo cáo Thực hành 02: Tích hợp Auth.js và Middleware",
+    "description": "Cấu hình xác thực Credentials Provider với JWT session, bảo vệ tuyến đường /admin và /dashboard bằng Middleware chống bypass.",
+    "dueDate": "2026-11-05T23:59:59+07:00",
+    "createdAt": "2026-10-20T09:30:00+07:00",
+    "priority": "high"
+  },
+  {
+    "id": "dl_03",
+    "subjectId": "sub_01",
+    "title": "Đề cương Đồ án môn học: Hệ thống Class Deadline Hub",
+    "description": "Nộp tài liệu đặc tả yêu cầu SRS, sơ đồ kiến trúc hệ thống và ma trận phân quyền RBAC cho sản phẩm quản lý deadline lớp học.",
+    "dueDate": "2026-10-24T23:59:59+07:00",
+    "createdAt": "2026-10-10T14:00:00+07:00",
+    "priority": "medium"
+  },
+  {
+    "id": "dl_04",
+    "subjectId": "sub_02",
+    "title": "Bài tập lớn 1: Mô phỏng thuật toán lập lịch CPU",
+    "description": "Hiện thực và đánh giá hiệu năng các thuật toán lập lịch Round Robin, SJF và Multilevel Feedback Queue bằng ngôn ngữ C/C++.",
+    "dueDate": "2026-10-31T21:00:00+07:00",
+    "createdAt": "2026-10-12T10:00:00+07:00",
+    "priority": "high"
+  },
+  {
+    "id": "dl_05",
+    "subjectId": "sub_02",
+    "title": "Thực hành Linux Kernel: System Call tùy biến",
+    "description": "Biên dịch lại nhân Linux 6.x, bổ sung một System Call mới để đọc thông tin tiến trình và viết chương trình user space kiểm thử.",
+    "dueDate": "2026-11-12T23:59:59+07:00",
+    "createdAt": "2026-10-18T16:00:00+07:00",
+    "priority": "medium"
+  },
+  {
+    "id": "dl_06",
+    "subjectId": "sub_02",
+    "title": "Tiểu luận: Nghiên cứu kỹ thuật ảo hóa bộ nhớ ảo (Paging & TLB)",
+    "description": "Phân tích cơ chế phân trang đa cấp, bảng trang nghịch đảo (Inverted Page Table) và tối ưu hóa bộ đệm TLB trên kiến trúc x86_64.",
+    "dueDate": "2026-10-20T17:00:00+07:00",
+    "createdAt": "2026-10-05T08:00:00+07:00",
+    "priority": "low"
+  },
+  {
+    "id": "dl_07",
+    "subjectId": "sub_03",
+    "title": "Thực hành 01: Thiết kế phân mảnh CSDL Hệ thống Đào tạo PTIT",
+    "description": "Thực hiện phân mảnh ngang chính và phân mảnh dọc cho quan hệ SinhVien, DangKyHocPhan và LopHocPhan trên PostgreSQL.",
+    "dueDate": "2026-10-28T23:59:59+07:00",
+    "createdAt": "2026-10-14T08:00:00+07:00",
+    "priority": "high"
+  },
+  {
+    "id": "dl_08",
+    "subjectId": "sub_03",
+    "title": "Thực hành 02: Tối ưu hóa truy vấn phân tán với Semi-join",
+    "description": "Đo lường chi phí truyền thông mạng khi thực thi truy vấn nối liên server, so sánh giữa giải thuật Join trực tiếp và Semi-join.",
+    "dueDate": "2026-11-08T23:59:59+07:00",
+    "createdAt": "2026-10-21T11:00:00+07:00",
+    "priority": "medium"
+  },
+  {
+    "id": "dl_09",
+    "subjectId": "sub_03",
+    "title": "Báo cáo chuyên đề: Đồng thuận Raft trong CSDL NoSQL phân tán",
+    "description": "Nghiên cứu nguyên lý bầu chọn Leader, Log Replication và Safety trong giải thuật Raft Consensus, cài đặt demo minh họa.",
+    "dueDate": "2026-11-20T23:59:59+07:00",
+    "createdAt": "2026-10-22T15:00:00+07:00",
+    "priority": "medium"
+  },
+  {
+    "id": "dl_10",
+    "subjectId": "sub_04",
+    "title": "Lab 01: Khảo sát lỗ hổng Web OWASP Top 10 (SQLi & XSS)",
+    "description": "Khai thác và phòng chống tấn công SQL Injection dạng Union-based và Stored XSS trên môi trường thực hành DVWA/Juice Shop.",
+    "dueDate": "2026-10-30T18:00:00+07:00",
+    "createdAt": "2026-10-16T13:30:00+07:00",
+    "priority": "high"
+  },
+  {
+    "id": "dl_11",
+    "subjectId": "sub_04",
+    "title": "Lab 02: Triển khai PKI nội bộ và chứng chỉ số x509",
+    "description": "Xây dựng Root Certificate Authority (CA) bằng OpenSSL, cấp phát chứng chỉ cho Web server và cấu hình Mutual TLS (mTLS).",
+    "dueDate": "2026-11-15T23:59:59+07:00",
+    "createdAt": "2026-10-23T10:00:00+07:00",
+    "priority": "medium"
+  },
+  {
+    "id": "dl_12",
+    "subjectId": "sub_04",
+    "title": "Bài kiểm tra giữa kỳ: Phân tích mã độc và kỹ thuật Reverse Engineering",
+    "description": "Dùng Ghidra và x64dbg phân tích file PE nhị phân nghi ngờ, bóc tách chuỗi C2 server và nhận diện hành vi persistence.",
+    "dueDate": "2026-10-22T16:00:00+07:00",
+    "createdAt": "2026-10-08T09:00:00+07:00",
+    "priority": "high"
+  }
+]
+

@@ -1,0 +1,55 @@
+
+> class-deadline-hub@1.0.0 build
+> next build
+
+  ▲ Next.js 14.2.35
+  - Environments: .env.local
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/29) ...
+   Generating static pages (7/29) 
+   Generating static pages (14/29) 
+   Generating static pages (21/29) 
+ ✓ Generating static pages (29/29)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                      Size     First Load JS
+┌ ○ /                                            1.9 kB          149 kB
+├ ○ /_not-found                                  142 B            88 kB
+├ ○ /403                                         272 B           153 kB
+├ ƒ /admin                                       47.6 kB         398 kB
+├ ƒ /api/auth/[...nextauth]                      0 B                0 B
+├ ƒ /dashboard                                   6.14 kB         351 kB
+├ ƒ /dashboard/completed                         1.98 kB         328 kB
+├ ƒ /dashboard/pending                           1.98 kB         328 kB
+├ ○ /deadlines                                   2.92 kB         270 kB
+├ ● /deadlines/[id]                              5.39 kB         235 kB
+├   ├ /deadlines/dl_01
+├   ├ /deadlines/dl_02
+├   ├ /deadlines/dl_03
+├   └ [+9 more paths]
+├ ƒ /deadlines/[id]/opengraph-image-104vc5       0 B                0 B
+├ ○ /login                                       21 kB           256 kB
+├ ○ /robots.txt                                  0 B                0 B
+├ ○ /sitemap.xml                                 0 B                0 B
+└ ● /subjects/[slug]                             3.9 kB          217 kB
+    ├ /subjects/lap-trinh-web-nang-cao
+    ├ /subjects/kien-truc-may-tinh-he-dieu-hanh
+    ├ /subjects/co-so-du-lieu-phan-tan
+    └ /subjects/an-toan-bao-mat-thong-tin
++ First Load JS shared by all                    87.8 kB
+  ├ chunks/2117-c37fcbc8e578eed5.js              32 kB
+  ├ chunks/fd9d1056-c950d8fb32a91e75.js          53.8 kB
+  └ other shared chunks (total)                  1.97 kB
+
+
+ƒ Middleware                                     48.5 kB
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses getStaticProps)
+ƒ  (Dynamic)  server-rendered on demand
+
